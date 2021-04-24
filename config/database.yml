@@ -31,4 +31,5 @@ production:
   pool: 5
   host: localhost
   username: your_username
-  password: your_database_password
+  password: your_database_passwordcd /c/
+  

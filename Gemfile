@@ -10,7 +10,7 @@ end
 gem 'rails', '~> 5.1.7'
 # Use sqlite3 as the database for Active Record
 #gem 'sqlite3'
-#gem 'sqlite3', '< 1.4'
+gem 'sqlite3', '< 1.4'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
@@ -30,10 +30,16 @@ gem 'jbuilder', '~> 2.5'
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
+gem 'jquery-rails'
+
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-
+gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
+#gem 'bootstrap-sass', '~> 3.3.1.0'
+#agregue el sgte porque salia en documentacion de ruby gems no en el video
+gem 'sassc', '~> 2.1.0'
+gem 'sassc-rails', '>= 2.1.0'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -41,7 +47,7 @@ group :development, :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '>= 2.15'
   gem 'selenium-webdriver'
-  gem 'sqlite3', '< 1.4'
+  #gem 'sqlite3', '< 1.4'
 end
 
 group :development do

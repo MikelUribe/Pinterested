@@ -42,6 +42,8 @@ gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
 #agregue el sgte porque salia en documentacion de ruby gems no en el video
 gem 'sassc', '~> 2.1.0'
 gem 'sassc-rails', '>= 2.1.0'
+#para ingresar usaurios y manejarlos
+gem 'devise', '~> 4.7', '>= 4.7.3'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

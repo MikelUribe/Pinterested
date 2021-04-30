@@ -91,5 +91,5 @@ Rails.application.configure do
 
 
   #installed per devise instalation instructions, cambiar nombre pagina si esque cambia
-  config.action_mailer.default_url_options = { jugamos.herokuapp.com }
+  config.action_mailer.default_url_options = { host: "jugamos.herokuapp.com" }
 end
